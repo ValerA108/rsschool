@@ -38,12 +38,9 @@ My strengths:
 ## Code examples
 ------------------
 ```javascript
-const func = (num) => {
-  if (num > 0) {
-    return num - 1;
-  }
-  return num + 1;
-};
+function multiply(a, b){
+return a * b;
+}
 ```
 
 ## Education
@@ -55,7 +52,7 @@ const func = (num) => {
 
 ## Experience
 ------------------
-[My CV-page](https://github.com/ValerA108/rsschool-cv)
+[My CV-page](https://github.com/ValerA108/rsschool-cv/blob/gh-pages/cv.md)
 
 
 ## Languages
