@@ -52,7 +52,7 @@ return a * b;
 
 ## Experience
 ------------------
-[My CV-page](https://github.com/ValerA108/rsschool-cv/blob/gh-pages/cv.md)
+[My CV-page](https://valera108.github.io/rsschool-cv/cv)
 
 
 ## Languages
