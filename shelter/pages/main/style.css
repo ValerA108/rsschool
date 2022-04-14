@@ -1,9 +1,13 @@
 body {
-	margin:        0;
+	width: 100%;
+	max-width: 1280px; 
+	margin: 0 auto;
 	font-family:  'PT Serif', serif;
 	font-size:     15px;
 	color:        #4C4C4C;
 	line-height:   160%;
+	display: block;
+	height: 100%;
 }	
 
 *,
@@ -16,9 +20,12 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
-/*Container*/
+/*header*/
 
-.container {
+.header {
+	display: block;
+	position: absolute;
+	z-index: 1000;
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -31,6 +38,19 @@ h1, h2, h3, h4, h5, h6 {
    height: 908px;
 	background: url("../../assets/images/start_screen/start-screen-gradient-background.png") center no-repeat;
 	background-size: cover;
+}
+
+.heading {
+width: 100%;
+max-width: 310px;
+margin-left: 40px;
+	font-size: 44px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 130%;
+	color: #FFFFFF;
+	text-align: left;
 }
 
 /*Header*/
@@ -51,14 +71,21 @@ z-index: 1000;
 	align-items: center;
 }
 
-.logo__title {
+.logo_title {
+	color: #F1CDB3;
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
 	font-size: 32px;
 	line-height: 110%;
-	display: flex;
-	align-items: center;
 	letter-spacing: 0.06em;
-	color:  #F1CDB3;
+	text-decoration: none;
 }
+
+.logo_title:hover {
+	text-decoration: underline;
+}
+
 
 .logo__subtitle {
 	font-size: 13px;
